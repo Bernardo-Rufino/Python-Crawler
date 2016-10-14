@@ -12,7 +12,7 @@ aProductLinks = []
 from mysql.connector import errorcode
 
 try:
-    cnx = connection.MySQLConnection(user='root', password='YjGmnSPQro',
+    cnx = connection.MySQLConnection(user='root', password='',
                                      host='127.0.0.1',
                                      database='Crawler')
     
